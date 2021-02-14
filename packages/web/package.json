@@ -1,0 +1,29 @@
+{
+  "name": "@monorepo/web",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@monorepo/app": "^1.0.0",
+    "ajv": "^7.1.0",
+    "next": "^10.0.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-transpile-modules": "^4.1.0",
+    "react": "^17.0.1",
+    "react-datepicker": "^3.4.1",
+    "react-dom": "^17.0.1",
+    "semantic-ui-offline": "^2.4.1-1",
+    "semantic-ui-react": "^0.84.0",
+    "uniforms": "^3.1.0",
+    "uniforms-bridge-json-schema": "^3.1.0",
+    "uniforms-semantic": "^3.1.0"
+  },
+  "devDependencies": {
+    "es-check": "^5.1.4",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}
